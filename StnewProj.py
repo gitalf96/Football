@@ -44,7 +44,7 @@ div[data-testid="element-container"] > label[data-testid="stMetricLabel"] > div 
 , unsafe_allow_html=True)
 
 
-df=pd.read_csv("C:\\Users\\AlfredRomarioG\\OneDrive - Cittabase Solutions Private Limited\\Desktop\\Project\\Football_new.csv")
+df=pd.read_csv('Football_new.csv')
 df.head()
 
 
