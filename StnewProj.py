@@ -15,7 +15,7 @@ st.markdown(
     """
     <style>
     div[data-testid="stApp"]  {
-        background: url("https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg?w=740&t=st=1704454131~exp=1704454731~hmac=d6bbd0f53bbd31f572eb17868195e78038904cc9d47544dbe5f7a59cec97b68b");
+        background: url("solid-concrete-wall-textured-backdrop_53876-129493.jpg");
     }
    </style>
     """,
