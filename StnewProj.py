@@ -15,7 +15,7 @@ st.markdown(
     """
     <style>
     div[data-testid="stApp"]  {
-        background-image: url("solid-concrete-wall-textured-backdrop_53876-129493.jpg");
+        background-image: url("../image/bg.jpg");
     }
    </style>
     """,
