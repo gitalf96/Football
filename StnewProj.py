@@ -15,7 +15,7 @@ st.markdown(
     """
     <style>
     div[data-testid="stApp"]  {
-        background-image:url("../image/bg.jpg");
+        background-image:url("./image/bg.jpg");
     }
    </style>
     """,
