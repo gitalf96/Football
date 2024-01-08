@@ -6,3 +6,4 @@ seaborn==0.13.0
 matplotlib==3.6.0
 plotly-express==0.4.1
 altair==5.2.0
+bg.jpg
