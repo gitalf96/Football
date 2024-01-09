@@ -151,10 +151,10 @@ with placeholder.container():
             st.markdown("### :green[Goals for Each Club]")
             st.write(df.groupby("Club")["Goals"].sum())
         with tb2:
-            st.markdown('### Goals in Each League')
+            st.markdown('### :green[Goals in Each League]')
             st.write(df.groupby("Competition")["Goals"].sum())
         with tb3:
-            st.markdown('### Goals in Each Country')
+            st.markdown('### :green[Goals in Each Country]')
             st.write(df.groupby("Country")["Goals"].sum())
         
         fig1,fig2,fig3=st.tabs(["Type of Goals in Each Country","Goals scored during","Goals Scored Home Vs Away"])
