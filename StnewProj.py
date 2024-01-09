@@ -15,7 +15,7 @@ st.markdown(
     """
     <style>
     div[data-testid="stApp"]  {
-        background-color: rgba(0,0,0, 0.4);
+        background-color: rgba(0,0,0, 0.9);
     }
    </style>
     """,
