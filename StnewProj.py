@@ -149,7 +149,7 @@ with placeholder.container():
         tb1,tb2,tb3=st.tabs([':white[Goals for Each Club]','Goals in Each League','Goals in Each Country'])
         with tb1:
             st.markdown("### :green[Goals for Each Club]")
-            st.table(df.groupby("Club")["Goals"].sum())
+            st.write(df.groupby("Club")["Goals"].sum())
         with tb2:
             st.markdown('### :green[Goals in Each League]')
             st.write(df.groupby("Competition")["Goals"].sum())
